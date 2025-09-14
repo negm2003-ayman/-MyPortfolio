@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="darkmode-toggle" />
+            <label for="darkmode-toggle" class="dark-mode-label">
+                <i class="bx bx-sun"></i>
+                <i class="bx bx-moon"></i>
+                <span class="ball"></span>
+            </label>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Negmeldin Ayman Elnems</h1>
+            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>Creating beautiful and functional web experiences with modern technologies.</p>
+            <div class="social-media">
+                <a
+                    href="https://www.linkedin.com/in/negm-eldin-elnems-373a03319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                        class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/negm2003-ayman"><i class="bx bxl-github"></i></a>
+                <a href="https://wa.me/201229155595"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b7ddc914-c95c-48f7-9420-03501e18f039.png"
+                alt="Professional portrait of a frontend developer in a modern office setting">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fb609ea0-4452-4c95-955c-ee57f928d6dc.png"
+                alt="Developer working on a laptop with code editor visible on screen">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am an Angular frontend developer with a passion for creating responsive, user-friendly web
+                applications. With expertise in modern JavaScript frameworks and a keen eye for design, I build
+                interfaces that not only look great but also provide exceptional user experiences.</p>
+
+            <div class="skills-container">
+                <h3>My Skills</h3>
+                <div class="skills">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">TypeScript</div>
+                    <div class="skill">Angular</div>
+                    <div class="skill">Responsive Design</div>
+                    <div class="skill">UI/UX</div>
+                    <div class="skill">Bootstrap</div>
+                    <div class="skill">Tailwind</div>
+                    <div class="skill">GitHub</div>
+                </div>
+            </div>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cd8637e2-38fa-4ccc-835b-f42abf82d337.png"
+                    alt="A responsive online store with product listing, cart, and secure checkout.">
+                <div class="project-layer">
+                    <h4>E-Commerce Website</h4>
+                    <p>A responsive online store with product listing, cart, and secure checkout.</p>
+                    <p class="tech-used">HTML , Typescript , Angular , Tailwind</p>
+                    <div class="project-links">
+                        <a href="https://e-commerce-app-gray-two.vercel.app/"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/negm2003-ayman/e-commerce-app"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img class="yummy"
+                    src="https://cdn.dribbble.com/userupload/6047243/file/original-edbcc295717cd28cef4a3f1354c238a2.jpg?crop=0x0-1600x1200&resize=640x480&vertical=center"
+                    alt="A clean and user-friendly platform for discovering and sharing food recipes.">
+                <div class="project-layer">
+                    <h4>Yummy Website</h4>
+                    <p>A clean and user-friendly platform for discovering and sharing food recipes.</p>
+                    <p class="tech-used">HTML , CSS , Jacascript , Bootstrap</p>
+                    <div class="project-links">
+                        <a href="https://yummy-project-nine.vercel.app/"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/negm2003-ayman/yummy-project"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fd0785e2-beff-42ef-b78e-d6af8e4f8b91.png"
+                    alt="A simple and responsive platform to check real-time weather updates.">
+                <div class="project-layer">
+                    <h4>Weather Website</h4>
+                    <p>A simple and responsive platform to check real-time weather updates.</p>
+                    <p class="tech-used">HTML , CSS , Jacascript , Bootstrap</p>
+                    <div class="project-links">
+                        <a href="https://weather-project-eight-tau.vercel.app/"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/negm2003-ayman/weather-project"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="bx bx-envelope"></i>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>elnemsnegm@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="bx bx-phone"></i>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+20 1229155595</p>
+                </div>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://wa.me/201229155595" class="icon-link" title="WhatsApp">
+                    <i class="bx bxl-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/negm-eldin-elnems-373a03319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    class="icon-link" title="LinkedIn">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="https://github.com/negm2003-ayman" class="icon-link" title="GitHub">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1T77DRzdAYwSBh4dB6Tb2aS47R55l4Vv-/view?usp=drivesdk"
+                    class="icon-link" title=" CV">
+                    <i class="bx bx-file"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2023 by Negm-eldin Elnems| All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
